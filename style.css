@@ -8,3 +8,41 @@ body{
     padding: 50px;
     
 }
+#trangection-area{
+   display:none;
+   
+}
+.diposite{
+    background-color: slateblue;
+    border-radius:10px;
+
+}
+.withdraw{
+    background-color: lightsalmon;
+    border-radius:10px;
+
+}
+.balance{
+    background-color: orange;
+    border-radius:10px;
+
+}
+.item{
+    padding: 20px;
+    margin: 10px;
+    color:#fff;
+}
+.item2{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+

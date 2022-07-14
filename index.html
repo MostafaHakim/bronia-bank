@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-    <div class="login-area">
+    <div id="login-area">
         <h1 class="text-center">Welcome To Bronia Bank</h1>
         <div class="submit-area">
             <h4 class="">Login</h4>
@@ -17,7 +17,45 @@
             <br>
             <input type="password" name="" id="" class="form-control" placeholder="Password">
             <br>
-            <button class="btn btn-success">Enter</button>
+            <button class="btn btn-success" id="loginBtn">Enter</button>
+        </div>
+    </div>
+    <div id="trangection-area">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="diposite item">
+                    <h2>Deposite</h2>
+                    <h2>$ <span id="currentDiposite">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw item">
+                    <h2>Withdraw</h2>
+                    <h2>$<span id="currentWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="balance item">
+                    <h2>Balance</h2>
+                    <h2>$ <span id="totalBalance">00</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="item2">
+                    <h4>Diposite</h4>
+                    <input type="text" id="dipositeNumber" class="form-control" placeholder="$ Amount you want to Dipodite?"><br>
+                    <button id="dipositeBtn" class="btn btn-success">Diposite</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="item2">
+                    <h4>Withdraw</h4>
+                    <input type="text" id="withdrawAmount" class="form-control" placeholder="$ Amount You want to Withdraw?"><br>
+                    <button id="withdrawAmountBtn" add class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -26,6 +64,6 @@
 
 
 
-
+<script src="script.js"></script>
 </body>
 </html>
